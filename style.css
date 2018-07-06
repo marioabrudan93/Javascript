@@ -1,0 +1,96 @@
+body {
+	font-family: Arial;
+	font-size: 13px;
+	-webkit-user-select: none;
+}
+
+.center {
+	margin: auto;
+	width: 220px;
+	height: 295px;
+	border: 3px solid #8ea7ce;
+	padding: 10px;
+	background-color: #eaedf2;
+}
+
+.input {
+	margin-top: 0;
+	width: 97%;
+	border-radius: 3px;
+	border: solid 1px #ccc;
+	padding: 5px 0;
+}
+
+li {
+	display: inline;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.x {
+	float: right;
+	width: 40px;
+	border: 1px solid black;
+	margin: 0;
+	padding: 7px;
+	text-align: center;
+	background-color: darkred;
+	color: white;
+}
+
+.x:hover {
+	background-color: red;
+}
+
+.noFuncButtons,.funcButtons,.zeroFuncButton {
+	box-sizing: border-box;
+	width: 40px;
+	height: 30px;
+	font-size: 12px;
+	padding: 7px;
+	margin-top: 5px;
+	border-radius: 3px;
+	border: solid 1px #ccc;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	background-color: lightblue;
+}
+
+.equalFuncButton {
+	box-sizing: border-box;
+	width: 40px;
+	height: 65px;
+	font-size: 20px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-top: 5px;
+	padding: 7px;
+	display: inline-block;
+	text-align: center;
+	line-height: 50px;
+	position: fixed;
+	background-color: lightblue;
+	cursor: pointer;
+}
+
+.zeroFuncButton {
+	box-sizing: border-box;
+	width: 83px;
+	height: 30px;
+	font-size: 12px;
+	padding: 7px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 3px;
+	background-color: lightblue;
+}
+
+.noFuncButtons:hover, .funcButtons:hover, .equalFuncButton:hover, .zeroFuncButton:hover {
+	background-color: #9fe51d;
+}
+
+
+
